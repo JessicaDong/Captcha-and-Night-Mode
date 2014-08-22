@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity"
+       android:background="?attr/day_night_background" >
+
+    <com.example.check.CheckView  
+            android:id="@+id/checkView"  
+            android:layout_width="80sp"  
+            android:layout_height="38sp"  
+            android:layout_marginLeft="5dp" >  
+</com.example.check.CheckView >
+
+<Button
+    android:id="@+id/btn"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_below="@+id/checkView"
+    android:layout_marginTop="78dp"
+    android:text="点击弹出带验证码的dialog"
+    android:textColor="?attr/day_night_text_color" />
+
+<Button
+    android:id="@+id/night"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignLeft="@+id/btn"
+    android:layout_centerVertical="true"
+    android:text="night"
+     android:textColor="?attr/day_night_text_color" />
+
+<Button
+    android:id="@+id/themebtn"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignLeft="@+id/night"
+    android:layout_below="@+id/night"
+    android:layout_marginTop="28dp"
+    android:text="改主题" 
+    android:textColor="?attr/day_night_text_color"/>
+
+<Button
+    android:id="@+id/next"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignLeft="@+id/themebtn"
+    android:layout_below="@+id/themebtn"
+    android:layout_marginTop="28dp"
+    android:text="第二页" 
+     android:textColor="?attr/day_night_text_color"/>
+
+</RelativeLayout>

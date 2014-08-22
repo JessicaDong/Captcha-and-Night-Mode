@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="NightMode">
+        <attr name="day_night_background" format="color" />
+        <attr name="day_night_background2" format="color" />
+        <attr name="day_night_text_color" format="color" />
+    </declare-styleable>
+</resources>

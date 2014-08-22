@@ -1,0 +1,36 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+     <!-- Application theme. -->
+    <style name="AppSunTheme" parent="AppBaseTheme">
+        <item name="day_night_background">@color/light_color</item>
+        <item name="day_night_background2">@color/light_color2</item>
+        <item name="day_night_text_color">@color/night_color</item>
+    </style>
+
+    <style name="AppNightTheme" parent="AppBaseTheme">
+        <item name="day_night_background">@color/night_color</item>
+        <item name="day_night_background2">@color/night_color</item>
+        <item name="day_night_text_color">@color/light_color</item>
+    </style>
+
+    <style name="NightDialog" parent="android:Theme.Holo.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+</resources>
